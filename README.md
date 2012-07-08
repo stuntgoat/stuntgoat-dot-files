@@ -1,4 +1,4 @@
 stuntgoat-dot-files
 ===================
 
-dot files
+dot files for fun and profit

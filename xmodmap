@@ -1,0 +1,7 @@
+# MacOSX
+remove Lock = Caps_Lock
+remove Control = Control_L
+keycode <keycodeofcontrol> = Control_L
+keycode <keycodeofcapslock> = Caps_Lock
+add Lock = Caps_Lock
+add Control = Control_L
