@@ -1,0 +1,6 @@
+startup_message off
+
+vbell off
+
+
+defscrollback 100000
