@@ -19,10 +19,6 @@ alias gcp='git cherry-pick'
 alias gco='git checkout'
 
 
-WORKON_HOME=~/.virtualenv
-export WORKON_HOME
-# source /usr/local/bin/virtualenvwrapper.sh
-
 GIT_EDITOR=/usr/bin/emacs
 export GIT_EDITOR
 
@@ -52,7 +48,27 @@ export PATH
 
 #export PYTHONPATH="${PYTHONPATH}
 
+#################################################################
+### NOTES from virtualenvwrapper ################################
+#  1. Create a directory to hold the virtual environments.
+#     (mkdir $HOME/.virtualenvs).
+#  2. Add a line like "export WORKON_HOME=$HOME/.virtualenvs"
+#     to your .bashrc.
+#  3. Add a line like "source /path/to/this/file/virtualenvwrapper.sh"
+#     to your .bashrc.
+#  4. Run: source ~/.bashrc
+#  5. Run: workon
+#  6. A list of environments, empty, is printed.
+#  7. Run: mkvirtualenv temp
+#  8. Run: workon
+#  9. This time, the "temp" environment is included.
+# 10. Run: workon temp
+# 11. The virtual environment is activated.
 
+export VIRTUALENVWRAPPER_PYTHON=/usr/local/bin/python2.7
+export WORKON_HOME=$HOME/.virtualenvs
+source /usr/local/bin/virtualenvwrapper.sh
+################################################################
 
 
 # Django ba
