@@ -28,7 +28,7 @@ function cd()
     then
 	builtin cd ~;
     else
-	builtin cd $1;
+	builtin cd "$@";
     fi
     ls -l;
 }
