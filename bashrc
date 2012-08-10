@@ -1,8 +1,8 @@
 alias up='cd ..'
 
-alias l='ls -l'
-alias ll='ls -la'
-alias la='ls -a'
+alias l='ls -lh'
+alias ll='ls -lah'
+alias la='ls -ah'
 
 alias scheme='rlwrap scheme'
 alias node='rlwrap node'
