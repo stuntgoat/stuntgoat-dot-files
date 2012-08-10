@@ -1,8 +1,8 @@
 alias up='cd ..'
 
-alias l='ls -lh'
-alias ll='ls -lah'
-alias la='ls -a'
+alias l='ls -lhp'
+alias ll='ls -lahp'
+alias la='ls -ap'
 
 alias scheme='rlwrap scheme'
 alias node='rlwrap node'
@@ -30,7 +30,7 @@ function cd()
     else
 	builtin cd "$@";
     fi
-    ls -l;
+    ls -lhp;
 }
 
 
